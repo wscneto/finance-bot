@@ -56,7 +56,7 @@ async def add_transaction(update: Update, context: ContextTypes.DEFAULT_TYPE, t_
 # --- Commands ---
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "\U0001F44B Olá! Eu sou o seu o bot de finanças do Walter.\n\n"
+        "\U0001F44B Olá! Eu sou o bot de finanças do Walter.\n\n"
         "Use os comandos:\n"
         "• /receita <valor> <categoria>\n"
         "• /despesa <valor> <categoria>\n"
